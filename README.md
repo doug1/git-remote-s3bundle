@@ -2,7 +2,8 @@
 git-remote-s3bundle
 ===================
 
-This is a Git remote protocol helper module for bundles stored in Amazon S3.
+This is a git remote protocol helper module for git bundles stored in Amazon S3.
+See man git-bundle(1) for more info on bundles.
 
 It supports clone, fetch, and pull from complete bundles built using:
 
@@ -19,6 +20,6 @@ or in your favorite local/libexec location.
 Clone a repo using:
 
 ``
-git clone s3bundle://bucket/patch/reponame.bundle reponame-local
+git clone s3bundle://bucket/path/reponame.bundle reponame-local
 ``
 
